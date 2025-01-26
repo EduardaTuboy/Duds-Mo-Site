@@ -29,6 +29,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+      favicon: "./src/assets/duds-mo.ico",
     }),
   ],
   devServer: {
