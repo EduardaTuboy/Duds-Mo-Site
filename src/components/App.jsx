@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar';
 import { Routes, Route, Link } from 'react-router-dom';
 
 // Importa as páginas
@@ -16,7 +17,7 @@ const App = () => {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-
+  <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

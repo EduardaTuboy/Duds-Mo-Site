@@ -1,0 +1,11 @@
+:root {
+    --bg: #FF1897;
+    --duds-blue: #006CFF;
+    --mo-black: #001F40;
+    --duds-yellow: #FFEA01;
+    --mo-orange: #FE7B01;
+  }
+
+nav{
+    background-color: var(--bg);
+}
