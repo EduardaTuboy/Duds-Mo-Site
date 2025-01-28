@@ -21,6 +21,10 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i, // Arquivos de imagem
+        type: "asset/resource",
+      },
     ],
   },
   resolve: {
@@ -33,8 +37,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: "./dist",
+    static: path.resolve(__dirname, "dist"),
     open: true,
     port: 3000,
+    historyApiFallback: true, // Importante para o React Router
   },
 };
