@@ -55,15 +55,49 @@ function Home() {
           }
         />
         <CardImg
+          bg_color={"#FE7B01"}
+          text_color={"#000000"}
+          ordem={"img-card"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Loja"}
+          content={"lorem ipsum"}
+        />
+        <CardImg
+          bg_color={"#006CFF"}
+          text_color={"#000000"}
+          ordem={"card-img"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Nossos jogos"}
+          content={"lorem ipsum"}
+        />
+        <CardImg
+          bg_color={"#FFEA01"}
+          text_color={"#000000"}
+          ordem={"img-card"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Como artistas"}
+          content={"lorem ipsum"}
+        />
+        <CardImg
+          bg_color={"#FFFFFF"}
+          text_color={"#000000"}
+          ordem={"card-img"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Como desenvolvedores"}
+          content={"lorem ipsum"}
+        />
+        <CardImg
           bg_color={"#FFFFFF"}
           text_color={"#000000"}
           ordem={"img-card"}
           src={require("../assets/logo.png")}
           alt={"logo"}
-          title={"Quem somos?"}
-          content={
-            "Somos um casal de estudantes de ciência da computação e empreendedores, que atuam com mídias digitais, produtos autorais e desenvolvimento de software."
-          }
+          title={"Como gamers"}
+          content={"lorem ipsum"}
         />
       </div>
     </div>
