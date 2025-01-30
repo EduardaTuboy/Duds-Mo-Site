@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ArrowLeftRoundedIcon from "@mui/icons-material/ArrowLeftRounded";
 import ArrowRightRoundedIcon from "@mui/icons-material/ArrowRightRounded";
 import "./Caroucel.css";
@@ -19,6 +19,15 @@ function Caroucel() {
       return newPage;
     });
   }
+
+  // Efeito para avançar automaticamente a cada 4 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      onClick(1); // Avança para a próxima página
+    }, 10000); // 10000ms = 10 segundos
+
+    return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+  }, []); // O array vazio garante que o efeito só roda uma vez (na montagem)
 
   return (
     <div id="caroucel">
