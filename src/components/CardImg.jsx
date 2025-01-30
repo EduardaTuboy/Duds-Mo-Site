@@ -10,9 +10,9 @@ function CardImg(props) {
       }}
     >
       <img src={props.src} alt={props.alt} />
-      <div className="card">
-        <h3>{props.title}</h3>
-        <p>{props.content}</p>
+      <div className="card" style={{ backgroundColor: props.bg_color }}>
+        <h3 style={{ color: props.text_color }}>{props.title}</h3>
+        <p style={{ color: props.text_color }}>{props.content}</p>
       </div>
     </div>
   );
