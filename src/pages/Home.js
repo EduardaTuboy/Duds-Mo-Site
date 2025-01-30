@@ -12,6 +12,26 @@ function Home() {
       <SocialMedia />
       <div id="about">
         <CardImg
+          ordem={"img-card"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Quem somos?"}
+          content={
+            "Somos um casal de estudantes de ciência da computação e empreendedores, que atuam com mídias digitais, produtos autorais e desenvolvimento de software."
+          }
+        />
+        <h2>Conheça nossos Projetos!</h2>
+        <CardImg
+          ordem={"card-img"}
+          src={require("../assets/logo.png")}
+          alt={"logo"}
+          title={"Quem somos?"}
+          content={
+            "Somos um casal de estudantes de ciência da computação e empreendedores, que atuam com mídias digitais, produtos autorais e desenvolvimento de software."
+          }
+        />
+        <CardImg
+          ordem={"img-card"}
           src={require("../assets/logo.png")}
           alt={"logo"}
           title={"Quem somos?"}

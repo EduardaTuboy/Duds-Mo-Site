@@ -1,7 +1,9 @@
 :root {
   --bg: #ff1897;
   --duds-blue: #006cff;
-  --mo-black: #001f40;
+  --mo-dark: #001f40;
+  --mo-black: #000000;
+  --mo-white: #ffffff;
   --duds-yellow: #ffea01;
   --mo-orange: #fe7b01;
 }

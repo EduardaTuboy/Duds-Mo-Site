@@ -1,5 +1,38 @@
+.card_image {
+  display: flex;
+}
+
 img {
   height: 297px;
   width: 255px;
   margin: 12px;
+}
+
+.card {
+  background-color: var(--mo-white);
+  border-top: 4px solid var(--mo-black);
+  border-right: 8px solid var(--mo-black);
+  border-bottom: 8px solid var(--mo-black);
+  border-left: 4px solid var(--mo-black);
+  width: 485px;
+  height: 255px;
+  border-radius: 2%;
+  margin: 30px;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 36px;
+  margin: 0px 0px 20px 0px;
+}
+
+.card p {
+  font-size: 28px;
+  margin: 0px;
 }

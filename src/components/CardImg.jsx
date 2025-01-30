@@ -3,10 +3,17 @@ import "./CardImg.css";
 
 function CardImg(props) {
   return (
-    <div>
+    <div
+      className="card_image"
+      style={{
+        flexDirection: props.ordem === "img-card" ? "row" : "row-reverse",
+      }}
+    >
       <img src={props.src} alt={props.alt} />
-      <h3>{props.title}</h3>
-      <span className="card">{props.content}</span>
+      <div className="card">
+        <h3>{props.title}</h3>
+        <p>{props.content}</p>
+      </div>
     </div>
   );
 }

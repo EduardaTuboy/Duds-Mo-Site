@@ -24,7 +24,7 @@
 }
 
 #caroucel button {
-  background-color: #222222aa;
+  background-color: var(--mo-orange);
   width: 50px;
   z-index: 1;
   border: none;
