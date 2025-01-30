@@ -19,6 +19,7 @@ h2 {
 
 .social_media_links img {
   border-radius: 50%;
+  border: 5px solid var(--mo-black);
   width: 138px;
   height: 138px;
   margin: 10px;
