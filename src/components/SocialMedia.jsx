@@ -6,9 +6,9 @@ import yt from "../assets/yt.png";
 import x from "../assets/x.png";
 import telegram from "../assets/telegram.png";
 
-function SocialMedia() {
+function SocialMedia(props) {
   return (
-    <div className="social_media">
+    <div className="social_media" style={{ width: props.width }}>
       <h2>Redes Sociais</h2>
       <div className="social_media_links">
         <a

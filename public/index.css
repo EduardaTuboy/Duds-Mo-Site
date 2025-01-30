@@ -25,6 +25,12 @@ body {
   z-index: 2;
 }
 
+.row {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 #about {
   display: flex;
   flex-direction: column;

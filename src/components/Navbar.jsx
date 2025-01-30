@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar(props) {

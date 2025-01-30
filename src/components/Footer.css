@@ -1,0 +1,20 @@
+footer {
+  height: 350px;
+  background-color: var(--duds-blue);
+  width: 100%;
+  font-family: "Josefin Sans", serif;
+
+  font-weight: 800;
+  padding-top: 10px;
+
+  border-top: 4px solid var(--mo-black);
+}
+
+.main_footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_footer > * {
+  width: 300px;
+}

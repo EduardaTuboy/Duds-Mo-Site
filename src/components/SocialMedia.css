@@ -1,5 +1,5 @@
 .social_media {
-  margin: 20px auto;
+  margin: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -20,7 +20,7 @@ h2 {
 .social_media_links img {
   border-radius: 50%;
   border: 5px solid var(--mo-black);
-  width: 138px;
-  height: 138px;
+  width: 80%;
+  height: auto;
   margin: 10px;
 }

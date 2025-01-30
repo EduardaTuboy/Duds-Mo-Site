@@ -3,8 +3,10 @@ import Navbar from "../components/Navbar";
 import Caroucel from "../components/Caroucel";
 import SocialMedia from "../components/SocialMedia";
 import CardImg from "../components/CardImg";
+import Footer from "../components/Footer";
 import dudsThinking from "../assets/duds_thinking.png";
 import moThinking from "../assets/mo_thinking.png";
+import { Margin } from "@mui/icons-material";
 
 function Home() {
   const [currentImage, setCurrentImage] = useState(dudsThinking);
@@ -29,7 +31,9 @@ function Home() {
         }}
         className="thinking_image"
       ></div>
-      <SocialMedia />
+      <div className="row">
+        <SocialMedia width={"600px"} />
+      </div>
       <div id="about">
         <CardImg
           bg_color={"#FFFFFF"}
@@ -99,6 +103,7 @@ function Home() {
           title={"Como gamers"}
           content={"lorem ipsum"}
         />
+        <Footer />
       </div>
     </div>
   );
