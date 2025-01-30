@@ -13,6 +13,18 @@ body {
   background-color: var(--bg);
 }
 
+.thinking_image {
+  width: 1000px;
+  height: 500px;
+
+  background-size: cover;
+  background-position: center;
+
+  margin: -500px auto 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
 #about {
   display: flex;
   flex-direction: column;

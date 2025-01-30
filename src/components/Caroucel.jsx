@@ -23,7 +23,9 @@ function Caroucel() {
   return (
     <div id="caroucel">
       <button id="left" onClick={() => onClick(-1)}>
-        <ArrowLeftRoundedIcon />
+        <ArrowLeftRoundedIcon
+          sx={{ fontSize: 50, marginLeft: -1.3, marginTop: -0.8 }}
+        />
       </button>
 
       <div className="caroucel-pages">
@@ -57,7 +59,9 @@ function Caroucel() {
       </div>
 
       <button id="right" onClick={() => onClick(1)}>
-        <ArrowRightRoundedIcon />
+        <ArrowRightRoundedIcon
+          sx={{ fontSize: 50, marginLeft: -1.3, marginTop: -0.8 }}
+        />
       </button>
     </div>
   );

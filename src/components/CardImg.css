@@ -33,5 +33,6 @@ img {
 
 .card p {
   font-size: 28px;
+  width: 90%;
   margin: 0px;
 }
