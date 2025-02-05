@@ -1,0 +1,17 @@
+.product {
+  background-color: var(--mo-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  width: 100px;
+  border-top: 4px solid var(--mo-black);
+  border-right: 8px solid var(--mo-black);
+  border-bottom: 8px solid var(--mo-black);
+  border-left: 4px solid var(--mo-black);
+}
+
+.product img {
+  width: 100px;
+}

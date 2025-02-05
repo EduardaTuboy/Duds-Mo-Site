@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  height: 500px;
   margin: 0 auto;
 }
 
@@ -32,12 +31,4 @@
   cursor: pointer;
   border-radius: 10px;
   border: 5px solid var(--mo-black);
-}
-
-#left {
-  margin-right: -130px;
-}
-
-#right {
-  margin-left: -130px;
 }

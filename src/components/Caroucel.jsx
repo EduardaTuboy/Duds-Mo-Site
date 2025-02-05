@@ -3,7 +3,7 @@ import ArrowLeftRoundedIcon from "@mui/icons-material/ArrowLeftRounded";
 import ArrowRightRoundedIcon from "@mui/icons-material/ArrowRightRounded";
 import "./Caroucel.css";
 
-function Caroucel() {
+function Caroucel(props) {
   const inicialPage = 0; // página inicial
   const [selectedPage, setSelectedPage] = useState(inicialPage);
 
@@ -30,8 +30,11 @@ function Caroucel() {
   }, []); // O array vazio garante que o efeito só roda uma vez (na montagem)
 
   return (
-    <div id="caroucel">
-      <button id="left" onClick={() => onClick(-1)}>
+    <div id="caroucel" style={{ height: props.height }}>
+      <button
+        onClick={() => onClick(-1)}
+        style={{ marginRight: props.botao === "home" ? -130 : 0 }}
+      >
         <ArrowLeftRoundedIcon
           sx={{ fontSize: 50, marginLeft: -1.3, marginTop: -0.8 }}
         />
@@ -67,7 +70,11 @@ function Caroucel() {
         </div>
       </div>
 
-      <button id="right" onClick={() => onClick(1)}>
+      <button
+        id="right"
+        onClick={() => onClick(1)}
+        style={{ marginLeft: props.botao === "home" ? -130 : 0 }}
+      >
         <ArrowRightRoundedIcon
           sx={{ fontSize: 50, marginLeft: -1.3, marginTop: -0.8 }}
         />

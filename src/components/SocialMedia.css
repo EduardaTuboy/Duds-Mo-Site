@@ -4,12 +4,6 @@
   flex-direction: column;
 }
 
-h2 {
-  font-family: "Josefin Sans", serif;
-  font-size: 36px;
-  font-weight: 800;
-}
-
 .social_media_links {
   display: flex;
   justify-content: space-between;

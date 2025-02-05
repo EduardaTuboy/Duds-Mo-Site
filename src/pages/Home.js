@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 import StickyButtons from "../components/StickyButtons";
 import dudsThinking from "../assets/duds_thinking.png";
 import moThinking from "../assets/mo_thinking.png";
-import { Margin } from "@mui/icons-material";
 
 function Home() {
   const [currentImage, setCurrentImage] = useState(dudsThinking);
@@ -25,7 +24,7 @@ function Home() {
   return (
     <div>
       <Navbar pagina={"home"} />
-      <Caroucel />
+      <Caroucel height={"500px"} botao={"home"} />
       <div
         style={{
           backgroundImage: `url(${currentImage})`,
