@@ -4,6 +4,7 @@ import Caroucel from "../components/Caroucel";
 import SocialMedia from "../components/SocialMedia";
 import CardImg from "../components/CardImg";
 import Footer from "../components/Footer";
+import StickyButtons from "../components/StickyButtons";
 import dudsThinking from "../assets/duds_thinking.png";
 import moThinking from "../assets/mo_thinking.png";
 import { Margin } from "@mui/icons-material";
@@ -103,6 +104,7 @@ function Home() {
           title={"Como gamers"}
           content={"lorem ipsum"}
         />
+        <StickyButtons />
         <Footer />
       </div>
     </div>

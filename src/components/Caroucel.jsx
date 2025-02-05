@@ -24,7 +24,7 @@ function Caroucel() {
   useEffect(() => {
     const interval = setInterval(() => {
       onClick(1); // Avança para a próxima página
-    }, 10000); // 10000ms = 10 segundos
+    }, 7000); // 7000ms = 7 segundos
 
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
   }, []); // O array vazio garante que o efeito só roda uma vez (na montagem)

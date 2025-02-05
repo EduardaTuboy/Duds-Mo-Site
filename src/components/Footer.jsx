@@ -1,6 +1,9 @@
 import React from "react";
-
 import SocialMedia from "../components/SocialMedia";
+import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
+import SendRoundedIcon from "@mui/icons-material/SendRounded";
+import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
+
 import "./Footer.css";
 
 function Footer(props) {
@@ -9,22 +12,41 @@ function Footer(props) {
       <span>© 2025 Duds&Mo Productions. Todos os direitos reservados.</span>
       <div className="main_footer">
         <div>
-          <h4>Contato</h4>
+          <h2>Contato</h2>
           <ul>
-            <li>✉️ dudsmoproductions@gmail.com</li>
-            <li>✈ ️Telegram de sugestões</li>
-            <li>📞 Whatsapp</li>
+            <li>
+              <EmailRoundedIcon className="icon" /> dudsmoproductions@gmail.com
+            </li>
+            <li>
+              <SendRoundedIcon className="icon" />
+              Telegram de sugestões
+            </li>
+
+            <li>
+              <ion-icon name="logo-whatsapp"></ion-icon>Whatsapp
+            </li>
           </ul>
         </div>
-        <SocialMedia width={"300px"} />
+        <SocialMedia className="icon" width={"300px"} />
         <div>
-          <h4>Outras páginas</h4>
+          <h2>Outras páginas</h2>
           <ul>
-            <li>Sound Cloud</li>
-            <li>Itch.io</li>
-            <li>LinkedIn</li>
-            <li>Behance</li>
-            <li>GitHub</li>
+            <li>
+              <ion-icon name="logo-soundcloud"></ion-icon>Sound Cloud
+            </li>
+            <li>
+              <VideogameAssetIcon className="icon" />
+              Itch.io
+            </li>
+            <li>
+              <ion-icon name="logo-linkedin"></ion-icon>LinkedIn
+            </li>
+            <li>
+              <ion-icon name="logo-behance"></ion-icon>Behance
+            </li>
+            <li>
+              <ion-icon name="logo-github"></ion-icon>GitHub
+            </li>
           </ul>
         </div>
       </div>

@@ -23,6 +23,12 @@
   margin: 10px;
 }
 
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .navbar-link {
   font-family: "Josefin Sans", serif;
   font-size: 24px;
@@ -52,12 +58,12 @@
 
 #profile {
   background-color: var(--duds-yellow);
-  width: 74px;
-  height: 74px;
+  min-width: 74px;
+  min-height: 74px;
 }
 
 #cart {
   background-color: var(--duds-blue);
-  width: 48px;
-  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
 }

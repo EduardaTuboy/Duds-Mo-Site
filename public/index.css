@@ -11,6 +11,7 @@
 body {
   margin: 0;
   background-color: var(--bg);
+  font-family: "Josefin Sans", serif;
 }
 
 .thinking_image {
@@ -26,7 +27,7 @@ body {
 }
 
 .row {
-  margin: auto;
+  margin: 20px;
   display: flex;
   justify-content: center;
 }

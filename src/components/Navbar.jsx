@@ -14,7 +14,7 @@ function Navbar(props) {
       <span id="nav_title">
         Duds & Mo <br /> Productions
       </span>
-      <div>
+      <div className="navbar-links">
         <a
           href="/"
           className="navbar-link"
@@ -44,7 +44,6 @@ function Navbar(props) {
           Nossa Loja
         </a>
       </div>
-      {/* bola de perfil */}
       <div id="cart" className="circle">
         <ShoppingCartIcon />
       </div>
