@@ -3,9 +3,9 @@ import "./CathegoryCard.css";
 
 function CathegoryCard(props) {
   return (
-    <div className="cathegory">
-      <img src={require("../assets/logo.png")} alt={"logo"} />
-      <h3>Categoria 1</h3>
+    <div className="cathegory" onClick={props.onClick}>
+      <img src={props.url} />
+      <h3>{props.name}</h3>
     </div>
   );
 }

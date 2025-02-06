@@ -1,13 +1,11 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./Navbar.css";
+import Logged from "./Logged";
+import Unlogged from "./Unlogged";
 
 function Navbar(props) {
-  //    if(props.isLogged){
-
-  //    }
-
+  var isLogged = true;
   return (
     <nav className="main_navbar">
       <img src={logo} id="nav_logo"></img>
@@ -44,12 +42,7 @@ function Navbar(props) {
           Nossa Loja
         </a>
       </div>
-      <div id="cart" className="circle">
-        <ShoppingCartIcon />
-      </div>
-      <div id="profile" className="circle">
-        <span>GF</span>
-      </div>
+      {isLogged ? <Logged /> : <Unlogged />}
     </nav>
   );
 }

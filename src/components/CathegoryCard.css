@@ -4,14 +4,21 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 200px;
-  width: 150px;
+  width: 250px;
+  height: 170px;
   border-top: 4px solid var(--mo-black);
   border-right: 8px solid var(--mo-black);
   border-bottom: 8px solid var(--mo-black);
   border-left: 4px solid var(--mo-black);
+  border-radius: 2%;
+  margin: 15px;
+}
+
+h3 {
+  margin: 0px;
 }
 
 .cathegory img {
   width: 100px;
+  height: auto;
 }

@@ -3,7 +3,6 @@ import SocialMedia from "../components/SocialMedia";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
-
 import "./Footer.css";
 
 function Footer(props) {

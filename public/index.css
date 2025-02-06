@@ -39,15 +39,27 @@ body {
 }
 
 h2 {
-  font-family: "Josefin Sans", serif;
   font-size: 36px;
   font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 #categorias {
   display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
 }
 
 #produtos {
   display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.espaco {
+  height: 20px;
 }

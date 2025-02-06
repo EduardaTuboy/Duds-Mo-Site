@@ -4,8 +4,9 @@ import "./ProductCard.css";
 function ProductCard(props) {
   return (
     <div className="product">
-      <img src={require("../assets/logo.png")} alt={"logo"} />
-      <h3>Produto 1</h3>
+      <img src={require("../assets/1.png")} alt={"logo"} />
+      <h3>{props.name}</h3>
+      <h3>R$ {props.price}</h3>
     </div>
   );
 }

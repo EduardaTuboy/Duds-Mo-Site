@@ -17,7 +17,6 @@
 }
 
 #nav_title {
-  font-family: "Josefin Sans", serif;
   font-size: 40px;
   font-weight: 800;
   margin: 10px;
@@ -30,7 +29,6 @@
 }
 
 .navbar-link {
-  font-family: "Josefin Sans", serif;
   font-size: 24px;
   font-weight: 800;
   color: var(--mo-black);
@@ -46,24 +44,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Josefin Sans", serif;
+
   font-size: 35px;
   font-weight: 400;
   color: var(--mo-black);
 }
 
-.circle span {
-  margin-top: 10px;
-}
-
 #profile {
   background-color: var(--duds-yellow);
-  min-width: 74px;
-  min-height: 74px;
+  min-width: 64px;
+  min-height: 64px;
 }
 
 #cart {
   background-color: var(--duds-blue);
   min-width: 48px;
   min-height: 48px;
+}
+
+.logged {
+  display: flex;
+  align-items: center;
+}
+
+#register {
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid var(--mo-black);
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 20px;
+  background-color: var(--duds-yellow);
+  height: 50px;
+  width: 120px;
 }
