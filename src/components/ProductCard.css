@@ -5,10 +5,6 @@
   align-items: center;
   min-height: 250px;
   min-width: 200px;
-  border-top: 4px solid var(--mo-black);
-  border-right: 8px solid var(--mo-black);
-  border-bottom: 8px solid var(--mo-black);
-  border-left: 4px solid var(--mo-black);
   margin: 15px;
   border-radius: 2%;
   margin: 15px;

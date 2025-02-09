@@ -9,9 +9,11 @@ function Logged() {
       <div id="cart" className="circle">
         <ShoppingCartIcon />
       </div>
-      <div id="profile" className="circle">
-        <PersonRoundedIcon sx={{ fontSize: 40 }} />
-      </div>
+      <a href="register">
+        <div id="profile" className="circle">
+          <PersonRoundedIcon sx={{ fontSize: 40 }} />
+        </div>
+      </a>
     </div>
   );
 }

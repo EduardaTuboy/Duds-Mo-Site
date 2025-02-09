@@ -6,10 +6,6 @@
   align-items: center;
   width: 250px;
   height: 170px;
-  border-top: 4px solid var(--mo-black);
-  border-right: 8px solid var(--mo-black);
-  border-bottom: 8px solid var(--mo-black);
-  border-left: 4px solid var(--mo-black);
   border-radius: 2%;
   margin: 15px;
 }
