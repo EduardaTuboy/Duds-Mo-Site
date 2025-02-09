@@ -5,7 +5,7 @@ import MenuBookRoundedIcon from "@mui/icons-material/MenuBookRounded";
 
 function StickyButtons(props) {
   return (
-    <div className="sticky">
+    <div className="sticky column">
       <h3>Suporte</h3>
       <div className="circle yellow">
         <QuestionMarkRoundedIcon />

@@ -115,7 +115,6 @@ function Loja() {
           onClick={() => handleClick(5)}
         />
       </div>
-      <div className="espaco"></div>
       <h2>Todos os nossos produtos</h2>
       <div>{renderCategoria()}</div>
 

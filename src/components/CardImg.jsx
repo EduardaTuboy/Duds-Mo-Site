@@ -11,7 +11,7 @@ function CardImg(props) {
     >
       <img src={props.src} alt={props.alt} />
       <div
-        className="card NB_border"
+        className="card column NB_border"
         style={{ backgroundColor: props.bg_color }}
       >
         <h3 style={{ color: props.text_color }}>{props.title}</h3>

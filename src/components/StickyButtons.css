@@ -15,9 +15,6 @@
 }
 
 .sticky {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: fixed;
   right: 10px; /* Distância do botão da borda direita */
   bottom: 10px;

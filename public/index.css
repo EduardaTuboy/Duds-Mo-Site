@@ -26,6 +26,12 @@ body {
   z-index: 2;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .row {
   margin: 20px;
   display: flex;
@@ -58,10 +64,6 @@ h2 {
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
-}
-
-.espaco {
-  height: 20px;
 }
 
 form {

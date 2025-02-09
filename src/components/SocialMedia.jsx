@@ -8,7 +8,7 @@ import telegram from "../assets/telegram.png";
 
 function SocialMedia(props) {
   return (
-    <div className="social_media" style={{ width: props.width }}>
+    <div className="column" style={{ width: props.width }}>
       <h2>Redes Sociais</h2>
       <div className="social_media_links">
         <a
