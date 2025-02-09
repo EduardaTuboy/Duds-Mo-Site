@@ -7,6 +7,7 @@ import EyeGloome from "../pages/EyeGloome";
 import Loja from "../pages/Loja";
 import Jogos from "../pages/Jogos";
 import Register from "../pages/Register";
+import Stock from "../pages/Stock";
 
 const App = () => {
   // Pega a localização atual da página
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/loja" element={<Loja />} />
         <Route path="/jogos" element={<Jogos />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/stock" element={<Stock />} />
       </Routes>
     </div>
   );

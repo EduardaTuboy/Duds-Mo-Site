@@ -43,6 +43,7 @@ function Navbar(props) {
         </a>
       </div>
       {isLogged ? <Logged /> : <Unlogged />}
+      <a href="/stock">📦</a>
     </nav>
   );
 }
