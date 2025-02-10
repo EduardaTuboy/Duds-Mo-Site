@@ -7,8 +7,8 @@ function Stock() {
     <div>
       <Navbar pagina={"stock"} />
       <div className="column">
-        <StockItem />
-        <StockItem />
+        <StockItem name={"Made in Brazil"} quantity={"479"} />
+        <StockItem name={"To bavu"} quantity={"481"} />
       </div>
     </div>
   );

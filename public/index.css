@@ -77,6 +77,12 @@ input {
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
+  font-family: "Josefin Sans", serif;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: var(--mo-dark);
 }
 
 .NB_border {
@@ -84,4 +90,24 @@ input {
   border-right: 8px solid var(--mo-black);
   border-bottom: 8px solid var(--mo-black);
   border-left: 4px solid var(--mo-black);
+}
+
+.NB_border:hover {
+  border-top: 8px solid var(--mo-black);
+  border-right: 4px solid var(--mo-black);
+  border-bottom: 4px solid var(--mo-black);
+  border-left: 8px solid var(--mo-black);
+}
+
+#username {
+  background-color: var(--duds-blue);
+}
+#password {
+  background-color: var(--mo-orange);
+}
+#submit {
+  background-color: var(--duds-yellow);
+}
+#forgot {
+  background-color: var(--mo-white);
 }

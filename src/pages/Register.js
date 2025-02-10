@@ -38,6 +38,7 @@ function Register() {
         <input
           className="NB_border"
           type="text"
+          id="submit"
           value="Login"
           onClick={handleSubmit}
           style={{ cursor: "pointer" }}
@@ -45,6 +46,7 @@ function Register() {
         <input
           className="NB_border"
           type="text"
+          id="forgot"
           value="Esqueceu a senha?"
           onClick={handleForgotPassword}
           style={{ cursor: "pointer" }}
