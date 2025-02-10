@@ -39,7 +39,7 @@ function Home() {
           bg_color={"#FFFFFF"}
           text_color={"#000000"}
           ordem={"img-card"}
-          src={require("../assets/logo.png")}
+          src={require("../assets/duds mo quadrado.png")}
           alt={"logo"}
           title={"Quem somos?"}
           content={
@@ -51,8 +51,8 @@ function Home() {
           bg_color={"#001f40"}
           text_color={"#ffff00"}
           ordem={"card-img"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/eg.png")}
+          alt={"logo do Eye Gloome"}
           title={"Eye Gloome"}
           content={
             "Graphic Novel onde um grupo de bandidos vive uma grande aventura, mas sem alinhar seus interesses, selam seus destinos um a um, com os olhos enevoados"
@@ -62,8 +62,8 @@ function Home() {
           bg_color={"#FE7B01"}
           text_color={"#000000"}
           ordem={"img-card"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/loja.png")}
+          alt={"logo da loja"}
           title={"Loja"}
           content={"lorem ipsum"}
         />
@@ -71,8 +71,8 @@ function Home() {
           bg_color={"#006CFF"}
           text_color={"#000000"}
           ordem={"card-img"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/games.png")}
+          alt={"imagem games"}
           title={"Nossos jogos"}
           content={"lorem ipsum"}
         />
@@ -80,26 +80,26 @@ function Home() {
           bg_color={"#FFEA01"}
           text_color={"#000000"}
           ordem={"img-card"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/art.png")}
+          alt={"imagem artistas"}
           title={"Como artistas"}
           content={"lorem ipsum"}
         />
         <CardImg
-          bg_color={"#FFFFFF"}
-          text_color={"#000000"}
+          bg_color={"#001f40"}
+          text_color={"#ffffff"}
           ordem={"card-img"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/dev.png")}
+          alt={"imagem desenvolvedores"}
           title={"Como desenvolvedores"}
           content={"lorem ipsum"}
         />
         <CardImg
-          bg_color={"#FFFFFF"}
+          bg_color={"#FE7B01"}
           text_color={"#000000"}
           ordem={"img-card"}
-          src={require("../assets/logo.png")}
-          alt={"logo"}
+          src={require("../assets/gamers.png")}
+          alt={"imagem gamers"}
           title={"Como gamers"}
           content={"lorem ipsum"}
         />
