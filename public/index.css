@@ -6,6 +6,7 @@
   --mo-white: #ffffff;
   --duds-yellow: #ffea01;
   --mo-orange: #fe7b01;
+  --placeholder: #a49f9f;
 }
 
 body {
@@ -66,6 +67,10 @@ h2 {
   margin: auto;
 }
 
+.main_register {
+  margin: 40px 0;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -82,7 +87,7 @@ input {
 }
 
 input::placeholder {
-  color: var(--mo-dark);
+  color: var(--placeholder);
 }
 
 .NB_border {
@@ -90,24 +95,54 @@ input::placeholder {
   border-right: 8px solid var(--mo-black);
   border-bottom: 8px solid var(--mo-black);
   border-left: 4px solid var(--mo-black);
+  border-radius: 10px;
 }
 
-.NB_border:hover {
+.hover_NB_border {
+  border-top: 4px solid var(--mo-black);
+  border-right: 8px solid var(--mo-black);
+  border-bottom: 8px solid var(--mo-black);
+  border-left: 4px solid var(--mo-black);
+}
+
+.hover_NB_border:hover {
   border-top: 8px solid var(--mo-black);
   border-right: 4px solid var(--mo-black);
   border-bottom: 4px solid var(--mo-black);
   border-left: 8px solid var(--mo-black);
 }
 
-#username {
-  background-color: var(--duds-blue);
+#email {
+  background-color: var(--mo-white);
 }
 #password {
-  background-color: var(--mo-orange);
+  background-color: var(--mo-white);
 }
 #submit {
-  background-color: var(--duds-yellow);
+  background-color: var(--duds-blue);
 }
 #forgot {
-  background-color: var(--mo-white);
+  background-color: var(--duds-yellow);
+}
+
+.main_loja {
+  display: flex; /* Ativa Flexbox */
+  justify-content: space-between; /* Espaço entre os elementos */
+  align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.purchase_area {
+  flex: 1; /* Ocupa o espaço disponível */
+  max-width: 75%; /* Define um limite máximo */
+}
+
+.cart_bar {
+  width: 250px; /* Largura fixa da barra */
+  min-height: 100vh; /* Garante que a barra ocupa a altura total da tela */
+  position: sticky;
+  right: 0;
+  top: 0;
+  background-color: var(--duds-blue); /* Cor de fundo opcional */
+  border-left: 1px solid #ddd; /* Adiciona uma borda para separar visualmente */
+  padding: 10px;
 }

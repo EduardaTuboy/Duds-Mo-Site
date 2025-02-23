@@ -8,6 +8,7 @@
   height: 120px;
   align-items: center;
   border-bottom: 4px solid var(--mo-black);
+  justify-content: space-between;
 }
 
 #nav_logo {

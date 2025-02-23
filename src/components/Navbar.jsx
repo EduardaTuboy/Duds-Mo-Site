@@ -42,7 +42,7 @@ function Navbar(props) {
           Nossa Loja
         </a>
       </div>
-      {isLogged ? <Logged /> : <Unlogged />}
+      {isLogged ? <Logged pagina={props.pagina} /> : <Unlogged />}
       <a href="/stock">📦</a>
     </nav>
   );

@@ -80,43 +80,48 @@ function Loja() {
   return (
     <div>
       <Navbar pagina={"loja"} />
-      <Caroucel height={"200px"} botao={"loja"} />
-      <div className="espaco"></div>
-      <h2>Categorias</h2>
-      <div id="categorias">
-        <CathegoryCard
-          name="Adesivos"
-          url={cathegoryStickers}
-          onClick={() => handleClick(0)}
-        />
-        <CathegoryCard
-          name="Prints"
-          url={cathegoryPrints}
-          onClick={() => handleClick(1)}
-        />
-        <CathegoryCard
-          name="Bottons"
-          url={cathegoryBottons}
-          onClick={() => handleClick(2)}
-        />
-        <CathegoryCard
-          name="Chaveiros"
-          url={cathegoryStickers}
-          onClick={() => handleClick(3)}
-        />
-        <CathegoryCard
-          name="Crochê"
-          url={cathegoryKeys}
-          onClick={() => handleClick(4)}
-        />
-        <CathegoryCard
-          name="Todos"
-          url={cathegoryPrints}
-          onClick={() => handleClick(5)}
-        />
-      </div>
-      <h2>Todos os nossos produtos</h2>
-      <div>{renderCategoria()}</div>
+      <main className="main_loja">
+        <div className="purchase_area">
+          <Caroucel height={"200px"} botao={"loja"} />
+          <div className="espaco"></div>
+          <h2>Categorias</h2>
+          <div id="categorias">
+            <CathegoryCard
+              name="Adesivos"
+              url={cathegoryStickers}
+              onClick={() => handleClick(0)}
+            />
+            <CathegoryCard
+              name="Prints"
+              url={cathegoryPrints}
+              onClick={() => handleClick(1)}
+            />
+            <CathegoryCard
+              name="Bottons"
+              url={cathegoryBottons}
+              onClick={() => handleClick(2)}
+            />
+            <CathegoryCard
+              name="Chaveiros"
+              url={cathegoryStickers}
+              onClick={() => handleClick(3)}
+            />
+            <CathegoryCard
+              name="Crochê"
+              url={cathegoryKeys}
+              onClick={() => handleClick(4)}
+            />
+            <CathegoryCard
+              name="Todos"
+              url={cathegoryPrints}
+              onClick={() => handleClick(5)}
+            />
+          </div>
+          <h2>Todos os nossos produtos</h2>
+          <div>{renderCategoria()}</div>
+        </div>
+        <div className="cart_bar">oi!!</div>
+      </main>
 
       <StickyButtons />
       <Footer />
