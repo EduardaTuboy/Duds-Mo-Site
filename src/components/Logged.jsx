@@ -7,7 +7,7 @@ function Logged(props) {
   return (
     <div className="logged">
       {props.pagina == "loja" && (
-        <div id="cart" className="circle">
+        <div id="cart" className="circle" onClick={props.toggleCartBar}>
           <ShoppingCartIcon />
         </div>
       )}

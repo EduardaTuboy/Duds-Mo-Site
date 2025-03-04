@@ -146,5 +146,4 @@ input::placeholder {
   background-color: var(--duds-blue); /* Cor de fundo opcional */
   border-left: 4px solid var(--mo-black); /* Adiciona uma borda para separar visualmente */
   padding: 10px;
-  display: none;
 }

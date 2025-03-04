@@ -14,6 +14,11 @@ import cathegoryKeys from "../assets/4.png";
 function Loja() {
   // Estado para controlar a categoria selecionada
   const [cathegory, setCathegory] = useState(null);
+  const [showCartBar, setShowCartBar] = useState(false);
+
+  const toggleCartBar = () => {
+    setShowCartBar(!showCartBar);
+  };
 
   // Função que é chamada quando uma categoria é clicada
   function handleClick(num) {
@@ -79,7 +84,7 @@ function Loja() {
 
   return (
     <div>
-      <Navbar pagina={"loja"} />
+      <Navbar pagina={"loja"} toggleCartBar={toggleCartBar} />
       <main className="main_loja">
         <div className="purchase_area">
           <Caroucel height={"200px"} botao={"loja"} />
@@ -120,7 +125,10 @@ function Loja() {
           <h2>Todos os nossos produtos</h2>
           <div>{renderCategoria()}</div>
         </div>
-        <div className="cart_bar">oi!!</div>
+        <div
+          className="cart_bar"
+          style={{ display: !showCartBar ? "none" : "flex" }}
+        ></div>
       </main>
 
       <StickyButtons />

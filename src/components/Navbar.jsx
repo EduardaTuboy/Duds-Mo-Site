@@ -42,7 +42,11 @@ function Navbar(props) {
           Nossa Loja
         </a>
       </div>
-      {isLogged ? <Logged pagina={props.pagina} /> : <Unlogged />}
+      {isLogged ? (
+        <Logged pagina={props.pagina} toggleCartBar={props.toggleCartBar} />
+      ) : (
+        <Unlogged />
+      )}
       <a href="/stock">📦</a>
     </nav>
   );
