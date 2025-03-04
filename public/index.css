@@ -56,14 +56,14 @@ h2 {
 #categorias {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  justify-content: center;
   margin: auto;
 }
 
 #produtos {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  justify-content: center;
   margin: auto;
 }
 

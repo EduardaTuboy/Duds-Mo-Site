@@ -1,6 +1,6 @@
 .product_cart {
   background-color: var(--mo-white);
-  min-width: 310px;
+  width: 310px;
   margin: 5px 0;
   border-radius: 2%;
   display: flex;
