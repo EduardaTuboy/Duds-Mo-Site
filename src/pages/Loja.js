@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Caroucel from "../components/Caroucel";
 import CathegoryCard from "../components/CathegoryCard";
 import ProductCard from "../components/ProductCard";
+import ProductCart from "../components/ProductCart";
 import StickyButtons from "../components/StickyButtons";
 import Footer from "../components/Footer";
 import products from "../products";
@@ -128,7 +129,13 @@ function Loja() {
         <div
           className="cart_bar"
           style={{ display: !showCartBar ? "none" : "flex" }}
-        ></div>
+        >
+          <ProductCart name="kirby bundinha" price="5,00" />
+          <ProductCart name="kirby bundinha kirby bundinha" price="5,00" />
+          <div id="button_cart" className="hover_NB_border NB_border">
+            <h3>Finalizar Compra!</h3>
+          </div>
+        </div>
       </main>
 
       <StickyButtons />

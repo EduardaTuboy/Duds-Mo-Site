@@ -138,7 +138,7 @@ input::placeholder {
 }
 
 .cart_bar {
-  width: 250px; /* Largura fixa da barra */
+  width: 350px; /* Largura fixa da barra */
   min-height: 100vh; /* Garante que a barra ocupa a altura total da tela */
   position: sticky;
   right: 0;
@@ -146,4 +146,17 @@ input::placeholder {
   background-color: var(--duds-blue); /* Cor de fundo opcional */
   border-left: 4px solid var(--mo-black); /* Adiciona uma borda para separar visualmente */
   padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button_cart {
+  height: 50px;
+  width: 310px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: var(--mo-dark);
+  color: #ffffff;
+  margin: 5px 0;
 }
